@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/94344605-3a3c-4ac2-923e-9951c93678e1/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/reactwebapprameez",
+    "appService.deploySubpath": "."
+}

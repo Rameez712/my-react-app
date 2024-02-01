@@ -1,0 +1,30 @@
+function synchronousFunction() {
+  console.log('Start');
+  console.log('Middle');
+  console.log('End');
+}
+
+synchronousFunction();
+
+// Start
+// Middle
+// End
+
+
+function asynchronousFunction() {
+    console.log('Start');
+  
+    setTimeout(() => {
+      console.log('Middle (after 2 seconds)');
+    }, 2000);
+  
+    console.log('End');
+  }
+  
+  asynchronousFunction();
+  
+
+// Start
+// End
+// Middle (after 2 seconds)
+
